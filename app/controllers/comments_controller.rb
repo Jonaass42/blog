@@ -12,7 +12,7 @@ class CommentsController < ApplicationController
  		 @comment.destroy
   		redirect_to article_path(@article)
 	end
-
+#aaaaaaaaaaaaaaaaa
 private
 	def comment_params
 		params.require(:comment).permit(:commenter, :body)
